@@ -1,0 +1,68 @@
+/* Gaya umum */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f0f0; /* Warna latar belakang untuk seluruh halaman */
+}
+
+.container {
+    max-width: 800px; /* Lebar maksimum untuk kontainer */
+    margin: 0 auto; /* Pusatkan kontainer */
+    background-color: #ffffff; /* Latar belakang putih untuk kontainer */
+    border-radius: 8px; /* Sudut melengkung */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+    padding: 20px; /* Ruang dalam kontainer */
+}
+
+h2.judul {
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Gaya tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Gaya untuk header tabel */
+thead th {
+    background-color: #90ee90; /* Warna biru muda untuk header */
+    color: black; /* Teks hitam di header */
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #888; /* Border warna abu-abu */
+}
+
+/* Gaya untuk sel tabel */
+td, th {
+    border: 1px solid #888; /* Border warna abu-abu */
+    padding: 8px;
+}
+
+/* Align khusus untuk kolom No dan Kuantitas */
+td:nth-child(1) {
+    text-align: center; /* Rata tengah untuk kolom No */
+}
+
+td:nth-child(5) {
+    text-align: center; /* Rata tengah untuk kolom Kuantitas */
+}
+
+/* Warna untuk baris genap dan ganjil */
+tbody tr:nth-child(even) {
+    background-color: #f2e642; /* Warna kuning muda untuk baris genap */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: hsl(277, 80%, 81%); /* Warna bisque untuk baris ganjil */
+}
+
+/* Baris total */
+tr.total td {
+    font-weight: bold;
+    background-color: #90ee90; /* Hijau muda untuk baris total */
+}
